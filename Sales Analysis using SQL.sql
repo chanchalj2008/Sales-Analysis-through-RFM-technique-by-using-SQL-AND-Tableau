@@ -9,7 +9,7 @@ select distinct YEAR_ID  from [dbo].[sales_data_sample];
 select distinct PRODUCTLINE from [dbo].[sales_data_sample]; -- to be plotted in Tableau
 select distinct COUNTRY from [dbo].[sales_data_sample]; -- to be plotted in Tableau
 select distinct DEALSIZE from [dbo].[sales_data_sample]; -- to be plotted in Tableau
-select distinct TERRITORY from [dbo].[sales_data_sample]; -- to be plotted in Tableau
+select distinct TERRITORY from [dbo].[sales_data_sample]; 
 
 -- ANALYSIS
 
@@ -130,7 +130,7 @@ select * from #rfm
 select CUSTOMERNAME , rfm_recency, rfm_frequency, rfm_monetary,
 	case 
 		when rfm_cell_string in (111, 112 , 121, 122, 123, 132, 211, 221, 212, 114, 141) then 'lost_customers'  --lost customers
-		when rfm_cell_string in (133, 134, 143, 234, 244, 334, 343, 344, 144) then 'slipping away, cannot lose' -- (Big spenders who haven’t purchased lately) slipping away
+		when rfm_cell_string in (133, 134, 143, 234, 244, 334, 343, 344, 144) then 'slipping away, cannot lose' -- (Big spenders who havenâ€™t purchased lately) slipping away
 		when rfm_cell_string in (311, 421, 411, 331) then 'new customers'
 		when rfm_cell_string in (222, 223, 232, 233, 322) then 'potential churners'
 		when rfm_cell_string in (323, 333,321, 422,423, 332, 432) then 'active' --(Customers who buy often & recently, but at low price points)
