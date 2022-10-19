@@ -13,5 +13,5 @@ Checkout following links to view my project:
 https://github.com/chanchalj2008/Sales-Analysis-through-RFM-technique-by-using-SQL-AND-Tableau/blob/main/Sales%20Analysis%20using%20SQL.sql
 
 -> Tableau
-https://public.tableau.com/app/profile/chanchal.jain5076/viz/SalesDashboard1_16661004794780/SalesDashboard1?publish=yes
-https://public.tableau.com/app/profile/chanchal.jain5076/viz/SalesDashboard2_16660448366720/SalesDasboard2?publish=yes
+https://public.tableau.com/app/profile/chanchalj2008/viz/SalesDashboard1_16661004794780/SalesDashboard1?publish=yes
+https://public.tableau.com/app/profile/chanchalj2008/viz/SalesDashboard2_16660448366720/SalesDasboard2?publish=yes
